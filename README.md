@@ -1,5 +1,7 @@
 # Mantis_Automation
-
+<br>
+Esse projeto foi criado usando as linguagens java e gherkin, e os frameworks selenium e cucumber.
+<br>
 Para rodar esse projeto é necessário as seguintes configurações:
 
 * Ter o Java(JDK) instalado. <br>
