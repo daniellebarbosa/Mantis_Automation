@@ -10,7 +10,7 @@ import org.junit.Test;
 import pageObjects.LoginPage;
 import pageObjects.ReportIssuePage;
 
-public class ReportIssue extends BasePage {
+public class ReportIssueSteps extends BasePage {
 
     private ReportIssuePage page = new ReportIssuePage(getDriver());
     private LoginPage pageLogin = new LoginPage(getDriver());

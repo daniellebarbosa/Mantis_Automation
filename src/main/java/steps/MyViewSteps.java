@@ -10,7 +10,7 @@ import org.junit.Test;
 import pageObjects.LoginPage;
 import pageObjects.MyViewPage;
 
-public class MyView extends BasePage {
+public class MyViewSteps extends BasePage {
 
     private MyViewPage page = new MyViewPage(getDriver());
     private LoginPage pageLogin = new LoginPage(getDriver());

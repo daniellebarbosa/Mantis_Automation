@@ -11,7 +11,7 @@ import org.junit.Test;
 import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
 
-public class MyAccount extends BasePage {
+public class MyAccountSteps extends BasePage {
 
     private MyAccountPage page = new MyAccountPage(getDriver());
     private LoginPage pageLogin = new LoginPage(getDriver());
