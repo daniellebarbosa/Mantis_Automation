@@ -1,0 +1,828 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-10T22:56:27.790Z",
+        "line": 3,
+        "name": "login",
+        "description": "",
+        "id": "login;login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9124000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "eu estou na página de login",
+            "match": {
+              "location": "steps.TesteLogin.euEstouNaPáginaDeLogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 328000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "eu digito meus dados",
+            "match": {
+              "location": "steps.TesteLogin.euDigitoMeusDados()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1379000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clico no botão de login",
+            "match": {
+              "location": "steps.TesteLogin.clicoNoBotãoDeLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I logged",
+            "match": {
+              "location": "steps.TesteLogin.iLogged()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 776000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "fecho o navegador",
+            "match": {
+              "location": "steps.ComumSteps.fechoONavegador()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T22:56:39.611Z",
+        "line": 10,
+        "name": "logout",
+        "description": "",
+        "id": "login;logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8313000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "eu estou na página de login",
+            "match": {
+              "location": "steps.TesteLogin.euEstouNaPáginaDeLogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 308000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "eu digito meus dados",
+            "match": {
+              "location": "steps.TesteLogin.euDigitoMeusDados()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1405000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clico no botão de login",
+            "match": {
+              "location": "steps.TesteLogin.clicoNoBotãoDeLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I logged",
+            "match": {
+              "location": "steps.TesteLogin.iLogged()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 708000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "eu deslogo",
+            "match": {
+              "location": "steps.TesteLogin.euDeslogo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1159000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "fecho o navegador",
+            "match": {
+              "location": "steps.ComumSteps.fechoONavegador()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T22:56:51.568Z",
+        "line": 18,
+        "name": "esqueciSenha",
+        "description": "",
+        "id": "login;esquecisenha",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8137000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "eu estou na página de login",
+            "match": {
+              "location": "steps.TesteLogin.euEstouNaPáginaDeLogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 699000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "eu clico em Lost your Password",
+            "match": {
+              "location": "steps.TesteLogin.euClicoEmLostYourPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "eu estou na página de esqueci senha",
+            "match": {
+              "location": "steps.TesteLogin.euEstouNaPáginaDeEsqueciSenha()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 717000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "fecho o navegador",
+            "match": {
+              "location": "steps.ComumSteps.fechoONavegador()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-10T22:57:01.212Z",
+        "line": 3,
+        "name": "navegar no my account",
+        "description": "",
+        "id": "myaccount;navegar-no-my-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9889000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "eu estou logada",
+            "match": {
+              "location": "steps.MyAccount.euEstouLogada()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 491000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "eu clico em My Account",
+            "match": {
+              "location": "steps.MyAccount.euClicoEmMyAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 436000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "eu clico em Preferences",
+            "match": {
+              "location": "steps.MyAccount.euClicoEmPreferences()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 439000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "eu clico em Manage Columns",
+            "match": {
+              "location": "steps.MyAccount.euClicoEmManageColumns()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 516000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "eu clico em Profiles",
+            "match": {
+              "location": "steps.MyAccount.euClicoEmProfiles()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 689000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "fecho o navegador",
+            "match": {
+              "location": "steps.ComumSteps.fechoONavegador()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "myaccount",
+    "description": "",
+    "id": "myaccount",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/myAccount.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-10T22:57:13.695Z",
+        "line": 3,
+        "name": "ver um projeto criado por mim",
+        "description": "",
+        "id": "myview;ver-um-projeto-criado-por-mim",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9865000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "eu estou logada",
+            "match": {
+              "location": "steps.MyAccount.euEstouLogada()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 821000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "eu seleciono o projeto",
+            "match": {
+              "location": "steps.MyView.euSelecionoOProjeto()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 675000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clico em Unassigned",
+            "match": {
+              "location": "steps.MyView.clicoEmUnassigned()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 469000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em um projeto",
+            "match": {
+              "location": "steps.MyView.clicoEmUmProjeto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verifico se o projeto é meu",
+            "match": {
+              "location": "steps.MyView.verificoSeOProjetoÉMeu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1160000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "fecho o navegador",
+            "match": {
+              "location": "steps.ComumSteps.fechoONavegador()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T22:57:26.794Z",
+        "line": 11,
+        "name": "pesquisar um projeto",
+        "description": "",
+        "id": "myview;pesquisar-um-projeto",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10135000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "eu estou logada",
+            "match": {
+              "location": "steps.MyAccount.euEstouLogada()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 145000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "eu digito numero da issue",
+            "match": {
+              "location": "steps.MyView.euDigitoNumeroDaIssue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 821000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clico em Jump",
+            "match": {
+              "location": "steps.MyView.clicoEmJump()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "encontro o projeto",
+            "match": {
+              "location": "steps.MyView.encontroOProjeto()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 875000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "fecho o navegador",
+            "match": {
+              "location": "steps.ComumSteps.fechoONavegador()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "myview",
+    "description": "",
+    "id": "myview",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/myView.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-10T22:57:38.869Z",
+        "line": 3,
+        "name": "cadastrar um report issue",
+        "description": "",
+        "id": "reportissue;cadastrar-um-report-issue",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10511000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "eu estou logada",
+            "match": {
+              "location": "steps.MyAccount.euEstouLogada()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 693000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "eu clico em report issue",
+            "match": {
+              "location": "steps.ReportIssue.euClicoEmReportIssue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1990000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "escolho um projeto",
+            "match": {
+              "location": "steps.ReportIssue.escolhoUmProjeto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1407000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "preencho os dados da issue",
+            "match": {
+              "location": "steps.ReportIssue.preenchoOsDadosDaIssue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 399000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em submit",
+            "match": {
+              "location": "steps.ReportIssue.clicoEmSubmit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 688000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "fecho o navegador",
+            "match": {
+              "location": "steps.ComumSteps.fechoONavegador()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T22:57:54.601Z",
+        "line": 11,
+        "name": "cadastro sem categoria",
+        "description": "",
+        "id": "reportissue;cadastro-sem-categoria",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10026000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "eu estou logada",
+            "match": {
+              "location": "steps.MyAccount.euEstouLogada()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 680000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "eu clico em report issue",
+            "match": {
+              "location": "steps.ReportIssue.euClicoEmReportIssue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1724000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "escolho um projeto",
+            "match": {
+              "location": "steps.ReportIssue.escolhoUmProjeto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 418000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "não preencho a categoria",
+            "match": {
+              "location": "steps.ReportIssue.nãoPreenchoACategoria()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "gera um erro de criação da issue",
+            "match": {
+              "location": "steps.ReportIssue.geraUmErroDeCriaçãoDaIssue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 770000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "fecho o navegador",
+            "match": {
+              "location": "steps.ComumSteps.fechoONavegador()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T22:58:08.285Z",
+        "line": 19,
+        "name": "cadastro sem sumario",
+        "description": "",
+        "id": "reportissue;cadastro-sem-sumario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9931000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "eu estou logada",
+            "match": {
+              "location": "steps.MyAccount.euEstouLogada()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 658000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "eu clico em report issue",
+            "match": {
+              "location": "steps.ReportIssue.euClicoEmReportIssue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1883000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "escolho um projeto",
+            "match": {
+              "location": "steps.ReportIssue.escolhoUmProjeto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 597000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "não preencho o sumario",
+            "match": {
+              "location": "steps.ReportIssue.nãoPreenchoOSumario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "gera um erro de criação da issue",
+            "match": {
+              "location": "steps.ReportIssue.geraUmErroDeCriaçãoDaIssue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 770000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "fecho o navegador",
+            "match": {
+              "location": "steps.ComumSteps.fechoONavegador()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T22:58:22.174Z",
+        "line": 27,
+        "name": "cadastro sem descrição",
+        "description": "",
+        "id": "reportissue;cadastro-sem-descrição",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10079000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "eu estou logada",
+            "match": {
+              "location": "steps.MyAccount.euEstouLogada()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "eu clico em report issue",
+            "match": {
+              "location": "steps.ReportIssue.euClicoEmReportIssue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2471000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "escolho um projeto",
+            "match": {
+              "location": "steps.ReportIssue.escolhoUmProjeto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 658000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "não preencho a descrição",
+            "match": {
+              "location": "steps.ReportIssue.nãoPreenchoADescrição()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "gera um erro de criação da issue",
+            "match": {
+              "location": "steps.ReportIssue.geraUmErroDeCriaçãoDaIssue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 671000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "fecho o navegador",
+            "match": {
+              "location": "steps.ComumSteps.fechoONavegador()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "reportIssue",
+    "description": "",
+    "id": "reportissue",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/reportIssue.feature",
+    "tags": []
+  }
+]
